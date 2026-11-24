@@ -1,0 +1,30 @@
+name: academix
+description: AcademiX – AI-Powered Teaching Assistant (Flutter Frontend Prototype with Student & Teacher Portals)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  fl_chart: ^0.69.0
+  file_picker: ^8.1.2
+  table_calendar: ^3.1.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+dependency_overrides:
+  path_provider_android: 2.2.15
+  flutter_plugin_android_lifecycle: 2.0.24
+
+flutter:
+  uses-material-design: true
